@@ -1,0 +1,512 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Smart Agency Template v1.0.0 (https://themesbootstrap.com.mx/templates/smart-agenct-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/smart-agency/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    margin:0;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    font-family: 'Titillium Web', sans-serif;
+   
+}
+
+.contenido{
+
+margin-top: 10px;
+}
+
+.content-center2{
+   
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+   /* margin-top: 15%;*/
+
+}
+
+div.content-area{
+   
+    
+  margin-top: 100px;
+  margin-left: 10%;
+ 
+}
+
+.demo {
+
+    flex: 1;
+   
+
+  }
+
+
+
+.bgDark { background-color: #1a1a1a; }
+.bgLight { background-color: #ffffff; }
+.bgLightGrey { background-color: #f5f5f5; }
+
+.colorDark { color: #1a1a1a !important; }
+
+h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+h2 { font-size: 48px; margin-bottom: 30px; }
+h3 { font-size: 33px; }
+h5 { margin-bottom: 0px; }
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a:hover { text-decoration: none; }
+
+a i { font-size: 22px; color: #ffffff; }
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+
+
+.btn i { font-size: 14px; margin-left: 5px; }
+
+.btn-primary {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn-warning {
+    background-color: #581685;
+    color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+
+.btn-alternate {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-primary:hover { background-color: #1a1a1a; border: 2px solid #1a1a1a; }
+.btn-secondary:hover { background-color: #ffffff; color: #1a1a1a; border: 2px solid #ffffff; }
+.btn-secondary:focus { background-color: #ffffff !important; outline: none; border: 2px solid #ffffff !important; box-shadow: none; }
+
+
+
+.btn-s{
+    padding: 5px 15px;
+}
+
+.btn-m{
+    padding: 10px 35px;
+}
+.btn-l{
+    padding: 10px 145px;
+    min-width: 165px;
+}
+
+.btn2-outline {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    border-color: rgb(82, 52, 253);
+    color: rgb(82, 52, 253);
+  }
+  
+  .success:hover {
+    background-color: rgb(82, 52, 253);
+    color: white;
+  }
+  
+  /* Blue */
+  .info {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0)
+  }
+  
+  .info:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  /* Orange */
+  .warning {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .warning:hover {
+    background: #ff9800;
+    color: white;
+  }
+  
+  /* Red */
+  .danger {
+    border-color: #f44336;
+    color: red
+  }
+  
+  .danger:hover {
+    background: #f44336;
+    color: white;
+  }
+  
+  /* Gray */
+  .default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+  }
+
+
+
+
+
+
+
+  .btn3 {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    border-color:#5d13e7;
+    background-color: #5d13e7;
+    color: rgb(255, 255, 255);
+  }
+  
+  .success:hover {
+    background-color: rgb(59, 28, 236);
+    color: white;
+  } 
+
+
+
+
+.logo-brand {
+    max-width: 180px;
+    min-width: 160px;
+}
+
+.margintop-xs { margin-top: 15px; }
+.margintop-sm { margin-top: 30px; }
+.margintop-lg { margin-top: 60px; }
+
+section { padding: 120px 0; }
+
+.divider { border-bottom: 2px solid #f5f5f5; }
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+   /* min-height: 100px;*/
+}
+
+.nav-link { color: #000000; 
+
+    font-size: 16px;
+}
+.nav-link:hover { color: #5b2efd; }
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+/* //////////////
+   Hero
+//////////////*/
+
+#hero {
+  
+ 
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 650px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
+
+/* //////////////
+   Members
+//////////////*/
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #ffffff;
+    bottom: 0;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details i {
+    padding: 0 5px;
+}
+
+/* //////////////
+   Pricing
+//////////////*/
+
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.plan-dark {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: #ffffff;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans h2 span {
+    font-size: 20px;
+}
+
+.plans ul {
+    list-style-type: square;
+}
+
+/* //////////////
+   Testimonial
+//////////////*/
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel-item p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.carousel-indicators li {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev { 
+    color: #ffffff;
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button {
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+.rating i {
+    color: #ffb944;
+    font-size: 26px;
+}
+
+
+/* //////////////
+   Footer
+//////////////*/
+
+.footer {
+   /* position:fixed;
+     bottom:0;
+    clear:both;
+    width:100%;
+    
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+    */
+
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  clear: both;
+
+    text-align: center;
+    color: #ffffff;
+   
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+/* //////////////
+   Media queries
+//////////////*/
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal; }
+    .portfolio-details h2 { font-size: 32px; }
+    .plans { min-width: unset; padding: 40px; }
+    .carousel-item p { font-size: 20px; }
+
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .portfolio-details h2 { font-size: 30px; }
+    .plans { min-width: unset; padding: 40px 20px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }
