@@ -3,7 +3,7 @@
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		    <!-- CSRF Token -->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
         
@@ -22,7 +22,7 @@
  
         <!-- main css -->
         <link rel="stylesheet" href="{{asset ('app-assets/css/styles.css') }}">
-		<link rel="shortcut icon" href="{{asset ('app-assets/images//favicon.png') }}" />
+		<link rel="shortcut icon" href="{{asset ('app-assets/images/favicon.png') }}" />
   
     </head>
 <body>
@@ -31,7 +31,7 @@
     <header class="header_area">	
 		<nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-        <a href="{{ url('/') }}"> <img src="app-assets/images/logoC.svg" class="logo-brand" alt="logo"></a>
+        <a href="{{ url('/') }}"> <img src="../app-assets/images/logoC.svg" class="logo-brand" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="icon ion-md-menu"></i>
@@ -100,17 +100,16 @@
 </header>
 
 
-    <main class="demo">
+    <main class="">
             @yield('content')
     </main>
     
 </div>
-<div class="footer bgDark">
+<footer class="bgDark">
             <div class="">
                 <small>©2020 All Rights Reserved. Curses</small>
             </div>
-</div>
-
+</footer>
   
 </body>
 
