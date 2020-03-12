@@ -83,27 +83,27 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Nombre">
+                                <input type="text" class="form-control" id="name" placeholder="Nombre">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Apellidos">
+                                <input type="text" class="form-control" id="lastname" placeholder="Apellidos">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="Email">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Compañia">
+                                <input type="text" class="form-control" id="company" placeholder="Compañia">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="number" class="form-control" id="" placeholder="Numero de telefono (optional)">
+                                <input type="number" class="form-control" id="telefone" placeholder="Numero de telefono (optional)">
                             </div>
                         </div>
                         <div class="col-md-12">

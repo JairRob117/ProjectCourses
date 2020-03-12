@@ -2,13 +2,18 @@
 
 @section('content')
 
-<div class="container content-center2">
+
+<div class="container content-center2 pb-5" style="margin-top: 145px;">
     <div class="row justify-content-center">
+    <div class="row justify-content-center">
+        <img src="../app-assets/images/learnLogo.svg" width="230" height="200" alt="Login">
+    </div>
         <div class="col-md-8">
             <div class="">
-              
+          
 
                 <div class="">
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -65,6 +70,8 @@
                                 @endif
                             </div>
                         </div>
+
+
                     </form>
                 </div>
             </div>
